@@ -55,4 +55,6 @@ contract FeeModifier is BaseHook {
         return (BaseHook.beforeSwap.selector, BeforeSwapDeltaLibrary.ZERO_DELTA, dynamicFee);
     }
 
+    
+
 }
