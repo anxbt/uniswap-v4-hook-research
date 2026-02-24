@@ -53,6 +53,8 @@ contract FeeModifier is BaseHook {
         beforeSwapCount[key.toId()]++;
         uint24 dynamicFee = (1 << 23) | 10; // Set bit 23 + 10 BPS
         return (BaseHook.beforeSwap.selector, BeforeSwapDeltaLibrary.ZERO_DELTA, dynamicFee);
+
+        //hy
     }
 
     
