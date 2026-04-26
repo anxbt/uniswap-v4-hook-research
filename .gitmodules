@@ -7,3 +7,6 @@
 [submodule "lib/hookmate"]
 	path = lib/hookmate
 	url = https://github.com/akshatmittal/hookmate
+[submodule "lib/v4-hooks-public"]
+	path = lib/v4-hooks-public
+	url = https://github.com/Uniswap/v4-hooks-public
